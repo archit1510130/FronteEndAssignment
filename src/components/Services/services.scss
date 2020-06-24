@@ -1,0 +1,20 @@
+.display-services{
+  
+    flex-direction: column;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    overflow: auto;
+
+
+    .preview {
+        padding:20px 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(6.5625rem,1fr));
+        grid-row-gap: .625rem;
+        -ms-flex-pack: start;
+        justify-content: space-between;
+        
+        max-width: 40%;
+      }
+}

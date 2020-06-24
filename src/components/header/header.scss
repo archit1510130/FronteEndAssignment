@@ -1,0 +1,87 @@
+.header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    position: relative;
+    
+  }
+
+  .image {
+    width: 100%;
+    height: 195%;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://gm-retail-app.s3.ap-south-1.amazonaws.com/banners-minified/desktop-homepage-banner/home-screen.jpg");
+    
+  }
+
+  .logo-container {
+    height: 100%;
+    width: 100px;
+    padding: 25px;
+    background-size: cover;
+    background-position: center;
+    float:left;
+    background-image: url("https://gomechanic.in/icons/logo/WHITE.png");
+  }
+
+  .headerBar{
+      margin-top:15px;
+      margin-right: 20px;
+      display: flex;
+      justify-content: flex-end;
+
+ 
+    }
+    .dropdown {
+
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      margin-top: 40px;
+      width: 100px;
+     
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 3;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+      height: 10px;
+    }
+    
+    .dropdown-content a:hover {background-color:grey;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    
+
+  .options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+    
+   
+    .option {
+        float:right;
+        padding: 12px 20px;
+        cursor: pointer;
+        color:white
+      }
+  }
+
+
+
+
+  
